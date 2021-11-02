@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Assaf-Fendell-02-11-2021/static/css/main.7daeaddf.chunk.css",
-    "main.js": "/Assaf-Fendell-02-11-2021/static/js/main.c3016bfb.chunk.js",
-    "main.js.map": "/Assaf-Fendell-02-11-2021/static/js/main.c3016bfb.chunk.js.map",
+    "main.css": "/Assaf-Fendell-02-11-2021/static/css/main.3475a5f8.chunk.css",
+    "main.js": "/Assaf-Fendell-02-11-2021/static/js/main.0a66e88f.chunk.js",
+    "main.js.map": "/Assaf-Fendell-02-11-2021/static/js/main.0a66e88f.chunk.js.map",
     "runtime-main.js": "/Assaf-Fendell-02-11-2021/static/js/runtime-main.2603ff79.js",
     "runtime-main.js.map": "/Assaf-Fendell-02-11-2021/static/js/runtime-main.2603ff79.js.map",
-    "static/js/2.11e4ccef.chunk.js": "/Assaf-Fendell-02-11-2021/static/js/2.11e4ccef.chunk.js",
-    "static/js/2.11e4ccef.chunk.js.map": "/Assaf-Fendell-02-11-2021/static/js/2.11e4ccef.chunk.js.map",
+    "static/js/2.f4bd4856.chunk.js": "/Assaf-Fendell-02-11-2021/static/js/2.f4bd4856.chunk.js",
+    "static/js/2.f4bd4856.chunk.js.map": "/Assaf-Fendell-02-11-2021/static/js/2.f4bd4856.chunk.js.map",
     "index.html": "/Assaf-Fendell-02-11-2021/index.html",
-    "static/css/main.7daeaddf.chunk.css.map": "/Assaf-Fendell-02-11-2021/static/css/main.7daeaddf.chunk.css.map",
-    "static/js/2.11e4ccef.chunk.js.LICENSE.txt": "/Assaf-Fendell-02-11-2021/static/js/2.11e4ccef.chunk.js.LICENSE.txt"
+    "static/css/main.3475a5f8.chunk.css.map": "/Assaf-Fendell-02-11-2021/static/css/main.3475a5f8.chunk.css.map",
+    "static/js/2.f4bd4856.chunk.js.LICENSE.txt": "/Assaf-Fendell-02-11-2021/static/js/2.f4bd4856.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.2603ff79.js",
-    "static/js/2.11e4ccef.chunk.js",
-    "static/css/main.7daeaddf.chunk.css",
-    "static/js/main.c3016bfb.chunk.js"
+    "static/js/2.f4bd4856.chunk.js",
+    "static/css/main.3475a5f8.chunk.css",
+    "static/js/main.0a66e88f.chunk.js"
   ]
 }
