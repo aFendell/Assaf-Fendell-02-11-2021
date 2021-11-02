@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Assaf-Fendell-02-11-2021/static/css/main.3475a5f8.chunk.css",
-    "main.js": "/Assaf-Fendell-02-11-2021/static/js/main.1499afe2.chunk.js",
-    "main.js.map": "/Assaf-Fendell-02-11-2021/static/js/main.1499afe2.chunk.js.map",
+    "main.js": "/Assaf-Fendell-02-11-2021/static/js/main.d840e713.chunk.js",
+    "main.js.map": "/Assaf-Fendell-02-11-2021/static/js/main.d840e713.chunk.js.map",
     "runtime-main.js": "/Assaf-Fendell-02-11-2021/static/js/runtime-main.2603ff79.js",
     "runtime-main.js.map": "/Assaf-Fendell-02-11-2021/static/js/runtime-main.2603ff79.js.map",
     "static/js/2.f4bd4856.chunk.js": "/Assaf-Fendell-02-11-2021/static/js/2.f4bd4856.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.2603ff79.js",
     "static/js/2.f4bd4856.chunk.js",
     "static/css/main.3475a5f8.chunk.css",
-    "static/js/main.1499afe2.chunk.js"
+    "static/js/main.d840e713.chunk.js"
   ]
 }
