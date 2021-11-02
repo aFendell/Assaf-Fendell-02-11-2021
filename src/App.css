@@ -1,4 +1,6 @@
 .App {
+  height: 100vh;
+  box-sizing: border-box;
   text-align: center;
 }
 
@@ -34,5 +36,26 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+.error-alert {
+  color: crimson;
+  font-size: 20px;
+}
+
+.loading-spinner {
+  width: 5rem;
+  height: 5rem;
+  border: 3px solid silver;
+  border-radius: 50%;
+  border-top-color: slateblue;
+  animation: spinner 0.6s linear infinite;
+  margin: 50% auto;
+}
+
+@keyframes spinner {
+  to {
+      transform: rotate(360deg);
   }
 }
