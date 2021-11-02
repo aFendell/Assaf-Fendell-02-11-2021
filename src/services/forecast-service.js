@@ -9,11 +9,14 @@ const gLocationOptions = require('../data/autocomplete.json')
 const gCurrentWeather = require('../data/locationsCurrentShort.json')
 const gFiveDayForcast = require('../data/fiveDayForecast.json')
 
-const BASE_URL = 'http://dataservice.accuweather.com'
+const BASE_URL = 'https://dataservice.accuweather.com'
+const CROSS_DOMAIN = 'https://the-ultimate-api-challenge.herokuapp.com'
+const REQUEST_URL = `${CROSS_DOMAIN}/${BASE_URL}`
+
 const AUTOCOMPLETE_URL = 'locations/v1/cities/autocomplete'
 const CURRENT_URL = 'currentconditions/v1'
 const FORECAST_URL = 'forecasts/v1/daily/5day'
-const API_KEY = 'ngMZfHubB2Ozd14rYWwGl67AUvCC5yG7'
+const API_KEY = 'CJehw8S6Kb9V8rZYjqOOhnZe223WU0Gj'
 
 export const forecastService = {
     getLocationOptions,
@@ -29,7 +32,7 @@ async function getLocationOptions(searchText) {
     // const data = gLocationOptions
     ////////////////////////////////////////////////////////////////////////////
 
-    const { data } = await axios.get(`${BASE_URL}/${AUTOCOMPLETE_URL}`, { params: { apikey: API_KEY, q: searchText } })
+    const { data } = await axios.get(`${REQUEST_URL}/${AUTOCOMPLETE_URL}`, { params: { apikey: API_KEY, q: searchText } })
     if (!data || data.length === 0) {
         console.log('Could not find the location you requested.');
         return
@@ -40,12 +43,12 @@ async function getLocationOptions(searchText) {
 
 
 async function getCurrentConditions(locationKey, locationName) {
-
+    console.log(locationKey, locationName);
     //////////// Test data/////////////////
     // const data = await gCurrentWeather
     ////////////////////////////////////////////////////////////////////////////////////////////////////
 
-    const { data } = await axios.get(`${BASE_URL}/${CURRENT_URL}/${locationKey}`, { params: { apikey: API_KEY } })
+    const { data } = await axios.get(`${REQUEST_URL}/${CURRENT_URL}/${locationKey}`, { params: { apikey: API_KEY } })
     if (!data || data.length === 0) {
         console.log('Somthing went wrong.');
         return data
@@ -72,7 +75,7 @@ async function getFiveDayForcast(locationKey) {
     // const data = gFiveDayForcast
     /////////////////////////////////////////////////////
 
-    const { data } = await axios.get(`${BASE_URL}/${FORECAST_URL}/${locationKey}`, { params: { apikey: API_KEY, metric: true } })
+    const { data } = await axios.get(`${REQUEST_URL}/${FORECAST_URL}/${locationKey}`, { params: { apikey: API_KEY, metric: true } })
     if (!data || data.length === 0) {
         console.log('Somthing went wrong.');
         return
